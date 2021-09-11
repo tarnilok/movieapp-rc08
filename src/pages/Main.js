@@ -3,10 +3,10 @@ import Movie from "../components/Movie";
 import { AuthContext } from "../context/AuthContext";
 
 const FEATURED_API =
-  "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=04c35731a5ee918f014970082a0088b1&page=1";
+  "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=aa0e656c3de553c0cffeac1d2bb2f687&page=1";
 // const IMG_API = "https://image.tmdb.org/t/p/w1280";
 const SEARCH_API =
-  "https://api.themoviedb.org/3/search/movie?&api_key=04c35731a5ee918f014970082a0088b1&query=";
+  "https://api.themoviedb.org/3/search/movie?&api_key=aa0e656c3de553c0cffeac1d2bb2f687&query=";
 
 function App() {
   const [movies, setMovies] = useState([]);

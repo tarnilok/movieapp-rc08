@@ -3,12 +3,13 @@ import "firebase/auth";
 import "firebase/firestore";
 
 const firebaseApp = firebase.initializeApp({
-  apiKey: "YOUR_API_KEY", //Kendi API_KEY ve config dosyanızı ekleyin
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: "",
+  apiKey: "AIzaSyBwZP3EN2NgVl82wTM167Al1ZjLJdHgsPM",
+  authDomain: "movieapp-d25a3.firebaseapp.com",
+  projectId: "movieapp-d25a3",
+  storageBucket: "movieapp-d25a3.appspot.com",
+  messagingSenderId: "1071944530466",
+  appId: "1:1071944530466:web:611777a5480f619399687b",
+  measurementId: "G-B5PVNVHHP5"
 });
 
 export const createUser = async (email, password, displayName) => {
