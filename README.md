@@ -60,6 +60,6 @@ REACT_APP_APP_ID=\
 REACT_APP_THEMOVIEDB_API_KEY=
 
 ## Heroku link
-👉 
+👉 https://react-movieapp-firebase.herokuapp.com/
 
 
